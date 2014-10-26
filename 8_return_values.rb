@@ -65,7 +65,19 @@ def variance(list_of_numbers)
   # ====================
   # Your code goes here.
   # ====================
+
+the_mean = mean(list_of_numbers)
+
+test running_total = 0
+list_of_numbers.each do |num|
+  difference = num - the_mean
+  squared_difference = difference * difference
+  running_total = running_total + squared_difference
 end
+
+running_total.to_f / list_of_numbers.length
+
+puts variance()
 
 # STANDARD DEVIATION
 # ==================
