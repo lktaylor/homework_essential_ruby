@@ -34,6 +34,19 @@ principal_amount = 200000.0
 # Your code goes here.
 # You shouldn't have to write code or change code anywhere else.
 
-# loan_quotes.each ...
+loan_quotes.each do |the_number|
+  puts the_number * the_number
+end
+
+
+es = { "name" => "Elm Street Bank",  "annual_rate" => 0.03875 }
+os = { "name" => "Oak Street Bank",  "annual_rate" => 0.04076 }
+as = { "name" => "Ash Street Bank",  "annual_rate" => 0.04000 }
+
+loan_quotes = [es, os, as]
+
+loan_quotes.each do |the_number|
+  puts "The monthly payment from #{name} will be #{loan_quotes}."
+end
 
 # ==============================================================
