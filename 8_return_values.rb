@@ -77,7 +77,7 @@ end
 
 running_total.to_f / list_of_numbers.length
 
-puts variance()
+end
 
 # STANDARD DEVIATION
 # ==================
@@ -86,7 +86,10 @@ puts variance()
 
 def standard_deviation(list_of_numbers)
   # ====================
- puts mean ([1, 4, 7])
+
+def standard_deviation
+      return ([1, 4, 7]).sqrt(variance)
+    end
   # ====================
 end
 
