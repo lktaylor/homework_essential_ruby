@@ -3,8 +3,8 @@
 
 # The essential pattern in Ruby:
 #    variable = object.method
-first = "raghu".capitalize
-last = "betina".capitalize
+first = "lindsay".capitalize
+last = "taylor".capitalize
 
 full = first + " " + last
 lucky_number = rand(1..100) + 7

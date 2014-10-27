@@ -46,9 +46,9 @@ def mean(list_of_numbers)
   # Let's re-use the work we did above in the sum method
 
   # ====================
-  # Your code goes here.
-  # ====================
+return sum(list_of_numbers).to_f / list_of_numbers.count
 end
+  # ====================
 
 # VARIANCE
 # ========
@@ -68,7 +68,7 @@ def variance(list_of_numbers)
 
 the_mean = mean(list_of_numbers)
 
-test running_total = 0
+running_total = 0
 list_of_numbers.each do |num|
   difference = num - the_mean
   squared_difference = difference * difference
@@ -86,7 +86,7 @@ puts variance()
 
 def standard_deviation(list_of_numbers)
   # ====================
-  # Your code goes here.
+ puts mean ([1, 4, 7])
   # ====================
 end
 
