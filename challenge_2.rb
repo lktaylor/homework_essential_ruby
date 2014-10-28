@@ -46,7 +46,7 @@ as = { "name" => "Ash Street Bank",  "annual_rate" => 0.04000 }
 loan_quotes = [es, os, as]
 
 loan_quotes.each do |the_number|
-  puts "The monthly payment from #{name} will be #{loan_quotes}."
+  puts pmt "The monthly pmt from #{name} will be #{loan_quotes}."
 end
 
 # ==============================================================
